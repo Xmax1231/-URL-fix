@@ -11,5 +11,7 @@
 (function(){
     if(location.href.search(/m.gamer.com.tw\/forum/)!=-1){
         location.href=location.href.replace(/m.gamer.com.tw\/forum/i,"forum.gamer.com.tw");
-    }
+    }else if(location.href.search(/m.gamer.com.tw\/home/)!=-1){
+    	location.href=location.href.replace(/m.gamer.com.tw\/home/i,"home.gamer.com.tw");
+	}
 })();
